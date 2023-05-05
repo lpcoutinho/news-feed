@@ -15,6 +15,7 @@ App to scrape a few interesting websites for articles on a daily basis.
 - [ ] Add https://engineeringblog.yelp.com/
 - [ ] Add https://engineering.fb.com/feed/
 - [ ] Add https://www.databricks.com/blog/category/engineering
+
 **This App was Created for Learning Purposes**
 
 Please feel free to use whatever you need to help you get a better understanding of Python/BeautifuSoup/WebScrapping
