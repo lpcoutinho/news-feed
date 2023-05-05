@@ -1,6 +1,8 @@
 import pandas as pd
 import utils
 from scrapper import Scrapper
+from datetime import datetime
+
 
 ############## Starting to scrape ##############
 print("Starting to scrape..")
@@ -21,7 +23,8 @@ for scraped_article in software_engineering_articles:
     link = {scraped_article.link}
 
     # dicty for each row of dataframe
-    linha_dict = {"Title": title, "Category": "Software Engineering", "Link": link}
+    current_date = datetime.now().strftime("%Y-%m-%d")
+    linha_dict = {"Title": title, "Category": "Software Engineering", "Link": link, "Date":current_date}
 
     # append row to dataframe
     linhas_df.append(linha_dict)

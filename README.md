@@ -12,6 +12,7 @@ App to scrape a few interesting websites for articles on a daily basis.
 - [x] Add Articles in CSV
 - [ ] Add Cron to schedule
 - [ ] Send somehow. E-mail, telegram, etc
+- [ ] Cloud Words
 - [ ] Add https://eng.uber.com
 - [ ] Add https://engineeringblog.yelp.com/
 - [ ] Add https://engineering.fb.com/feed/
@@ -42,3 +43,24 @@ pip install -r requirements.txt
 ```bash
 python news_feed/app.py
 ```
+
+### Bonus
+
+If you want to use `make format` to leave the code in the black patterns and with the imports organized whenever you perform a commit, follow the steps:
+
+- Create a pre-commit file in .git/hooks/
+```bash
+touch .git/hooks/pre-commit
+```
+
+- Add `make format` in file `pre-commit`
+```bash
+nano .git/hooks/pre-commit
+```
+
+- Change directory permissions
+```bash
+chmod +x .git/hooks/*
+```
+
+Now whenever you make a commit the code will be automatically formatted according to what was stipulated in the Makefile.
