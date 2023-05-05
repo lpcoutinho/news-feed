@@ -23,9 +23,9 @@ Please feel free to use whatever you need to help you get a better understanding
 
 ## Install & Run this project
 
-- Clone this project
+- Clone this repository
 
-I like to work with Poetry and if you also use it to install the requirements of this project, just use `poetry install`.
+I like to work with Poetry, Makefile and another tools if you also use it to install the requirements of this project, just use `make install`.
 
 In other cases you will need to create a virtual environment and install the requirements with pip.
 
