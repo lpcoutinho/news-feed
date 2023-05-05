@@ -4,7 +4,8 @@ App to scrape a few interesting websites for articles on a daily basis.
 
 ### Tools
 - Python
-- BeautifulSoup 
+- BeautifulSoup
+- Pandas 
 - Cron
 - MailGun 
 
@@ -42,6 +43,23 @@ pip install -r requirements.txt
 - Run app
 ```bash
 python news_feed/app.py
+```
+
+## Crontab
+For our script to run every day at 08:30 we will use Crontab in Linux
+
+- Change file permissions
+```bash
+chmod +x news_feed/app.py
+```
+
+- Set up crontab
+```bash
+crontab -e
+```
+Edite file
+```nano
+30 8 * * * bash path/to/news.sh
 ```
 
 ### Bonus
