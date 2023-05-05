@@ -9,8 +9,9 @@ App to scrape a few interesting websites for articles on a daily basis.
 - MailGun 
 
 ### To Do
-- [ ] Add Articles in CSV
+- [x] Add Articles in CSV
 - [ ] Add Cron to schedule
+- [ ] Send somehow. E-mail, telegram, etc
 - [ ] Add https://eng.uber.com
 - [ ] Add https://engineeringblog.yelp.com/
 - [ ] Add https://engineering.fb.com/feed/

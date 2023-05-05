@@ -10,6 +10,7 @@ packages = [{include = "news_feed"}]
 python = "^3.11"
 bs4 = "^0.0.1"
 requests = "^2.30.0"
+pandas = "^2.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
